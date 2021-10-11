@@ -1,0 +1,182 @@
+:root {
+    --gray: #5c5c5c;
+    --pink: #c95dc8;
+    --blue: #5d9ac9;
+    --orange: #f08d3c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+header {
+    display: flex;
+    padding: 20px, 20px;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: var(--gray);
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0;
+    text-align: center;
+    color: var(--blue);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--blue);
+}
+
+header nav {
+    margin: 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    list-style: none;
+    font-size: 18px;
+}
+
+header nav ul li a {
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+section {
+    padding: 50px;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+footer p {
+    text-align: center;
+}
+
+ /* END GENERAL CSS */
+
+ /* BIO SECTION */
+
+.who {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+}
+
+.who figure {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 15px;
+    max-width: 100%;
+}
+
+.who img {
+    display: flex;
+    width: 30%;
+    /* flex: 1 30%; */
+}
+
+.about-img {
+    margin: 0;
+    display: flex;
+    align-content: center;
+}
+
+.bio{
+    width: 30%;
+    text-align: left;
+    justify-content: space-between;
+    align-content: flex-start;
+    margin-bottom: 10%;
+}
+
+.bio h3 {
+    align-content: space-between;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* .bio .at-tag {
+    position: absolute;
+    margin-left: 7.5%;
+    top: 22.7%;
+} */
+/* BIO SECTION */
+
+.what > * {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: space-between;
+    width: 60%;
+    flex: 1 auto;
+}
+
+.what img {
+    width: 100%;
+    /* align-content: center;
+    align-items: center;
+    justify-content: center; */
+}
+
+.row {
+    display: flex;
+    width: 60%;
+    /* justify-content: center;
+    align-content: center; */
+}
+
+.work {
+    margin: 20px;
+    flex: 1;
+}
+
+.description {
+    text-align: center;
+}
+
+.why {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.why {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+.blurb {
+    width: 100%;
+}
