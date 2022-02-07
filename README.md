@@ -28,6 +28,7 @@ Javascript, SQL, HTML & CSS
 - bootstrap
 - sequelize
 - MySQL
+- MongoDB
 
 ## Applications & IDE
 
