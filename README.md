@@ -29,6 +29,7 @@ Javascript, SQL, HTML & CSS
 - sequelize
 - MySQL
 - MongoDB
+- webpack
 
 ## Applications & IDE
 
