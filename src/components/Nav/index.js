@@ -3,18 +3,18 @@ import React from 'react';
 function Nav() {
     return (
         <div className="nav">
-                <div>
+                <a href='/projects'>
                     projects
-                </div>
-                <div>
+                </a>
+                <a href="/resume">
                     resume
-                </div>
-                <div>
+                </a>
+                <a href="/about">
                     about
-                </div>
-                <div>
+                </a>
+                <a href="/linkedIn">
                     linkedIn
-                </div>
+                </a>
         </div>
     )
 }

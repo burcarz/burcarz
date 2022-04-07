@@ -1,24 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap');
+
 :root {
   --primary: #8c54ff;
   --secondary: #F3A847;
   --tertiary: #B12704;
   --light: #fafafa;
   --dark: #000000;
+  --font-sans: 'Rubik', sans-serif;
+  --font-serif: 'Cardo', serif;
+
+  --d: 3200ms;
+  --e: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background-image: url('https://images.pexels.com/photos/3389817/pexels-photo-3389817.jpeg');
 }
 
 main {
   margin: 0 auto;
 	max-width: 90%;
-  padding: 50px 30px;
+  padding: 1rem;
+  display: grid;
+  grid-gap: 1rem;
+  font-family: var(--font-sans);
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: grid;
 }
 
 li {
@@ -26,18 +43,188 @@ li {
 }
 
 .head {
-  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  color: var(--light);
+  margin-top: 4rem;
 }
 
 .head h2 {
   font-size: 3rem;
+  margin: 0;
+  margin-top: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark);
+  padding-top: .3rem;
+  color: var(--light);
 }
 
 .nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
+  width: 100%;
+  align-items: flex-start;
+  transition: transform calc(var(--d) * 1.5) var(--e);
+}
+
+.nav a:hover {
+  font-size: 1.5rem;
+  transition: transform calc(var(--d) * 1.5) var(--e);
+  pointer-events: stroke;
+  color: var(--secondary)
+}
+
+.foot {
+  color: var(--light);
+}
+
+
+.gallery {
+  /* position: relative; */
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  color: var(--light);
+  background-color: var(--light);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1),
+  0 2px 2px rgba(0,0,0,0.1), 
+  0 4px 4px rgba(0,0,0,0.1), 
+  0 8px 8px rgba(0,0,0,0.1),
+  0 16px 16px rgba(0,0,0,0.1);
+  /* perspective: 600px; */
+  border-radius: .5rem;
+}
+
+.gallery::before {
+  content: '';
+  /* position: relative; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110%;
+  background-size: cover;
+  background-position: 0 0;
+  /* transition: transform calc(var(--d) * 1.5) var(--e); */
+  pointer-events: none;
+}
+
+.gallery::after {
+  content: '';
+  display: flex;
+  /* position: relative; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200%;
+  pointer-events: none;
+  /* background-image: linear-gradient(var(--dark) 10%, 30%, blue 90% 20%); */
+  /* transform: translateY(-50%);
+  transition: transform calc(var(--d) * 2) var(--e); */
+}
+
+ .side_text {
+  position: absolute;
+  display: block;
+  float: left;
+  padding-left: 1rem;
+  z-index: 5;
+  font-size: 2rem;
+  text-align: left;
+}
+
+.card_container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 30rem;
+  padding: 1rem;
+  margin: 20px;
+  /* z-index: 1; */
+  background-position: center;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  filter: blur(2px);
+  border-radius: .5rem;
+}
+
+.card_container:hover {
+  /* z-index: 1; */
+  filter: blur(0);
+  transition: transform 1s;
+  transform: translateY(-2%);
+  width: 150%;
+}
+
+.card_container.is-flipped {
+  transform: rotateX(180deg);
+}
+
+.card_face {
+  position: absolute;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+.card_face_front {
+  cursor: pointer;
+}
+
+.card_face_back {
+  background: blue;
+  cursor: pointer;
+  transform: rotateX(180deg)
+}
+
+button {
+  cursor: pointer;
+  margin: .3rem;
+  padding: 0.80rem;
+  font-size: 0.65rem;
+  font-weight: bold;
+  letter-spacing: 0.025rem;
+  text-transform: uppercase;
+  color: var(--light);
+  background-color: var(--dark);
+  border: none;
+  border-radius: .2rem;
+}
+
+button:hover {
+  background-color: var(--primary);
+}
+
+button:focus {
+  outline: .2rem solid var(--secondary);
+  outline-offset: .2rem;
+}
+
+.title {
+  font-size: 4.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+  display: flex;
+  align-items: flex-start;
+  filter: drop-shadow(3px 5px 1px var(--dark))
+}
+
+.copy {
+  font-family: var(--font-serif);
+  font-size: 1.125rem;
+  font-style: italic;
+  line-height: 1.35;
 }
 
 code {
