@@ -15,11 +15,12 @@ As well as some Blender work on physics based animation.
 
 ## Languages
 
-Javascript, SQL, HTML & CSS
+Javascript, Typescript, C#, SQL, HTML & CSS
 
 ## Enviroments & Packages
 
 - node.js
+- react.js
 - handlebars.js
 - express.js
 - bcrpyt
@@ -28,6 +29,7 @@ Javascript, SQL, HTML & CSS
 - bootstrap
 - sequelize
 - MySQL
+- GraphQL
 - MongoDB
 - webpack
 
