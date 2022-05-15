@@ -33,7 +33,7 @@ function Card(props) {
     return (
         <div className={`card_container ${isFlipped ? 'is-flipped' : ''}`} style={{backgroundImage: `url(${img})`}}
         onMouseEnter={handleHover}
-        onMouseLeave={handleLeave}>
+        onMouseLeave={handleLeave}> 
             <div className='card_face card_face_front' onClick={handleFlip}>
                 <h3 className="title">
                     {title}
