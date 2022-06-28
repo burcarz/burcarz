@@ -4,7 +4,7 @@ Hello! My name is Zachary.
 
 ## A bit about me!
 
-I'm a web developer currently enrolled in Michigan State University's full-stack web development bootcamp.
+I'm a web developer and graduate of Michigan State's Full Stack Web Development Cohort.
 
 I'm familiar with both front-end and back-end technologies but I have a deep interest in Data Structures and push myself to learn more everyday.
 
