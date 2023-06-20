@@ -15,7 +15,7 @@ As well as some Blender work on physics based animation.
 
 ## Languages
 
-Javascript, Typescript, C#, SQL, HTML & CSS
+Javascript, Typescript, C#, SQL, PHP, HTML & CSS
 
 ## Enviroments & Packages
 
@@ -32,6 +32,9 @@ Javascript, Typescript, C#, SQL, HTML & CSS
 - GraphQL
 - MongoDB
 - webpack
+- Microsoft Entity Framework
+- .NET
+- Azure.Core
 
 ## Applications & IDE
 
@@ -39,3 +42,5 @@ Javascript, Typescript, C#, SQL, HTML & CSS
 - MySQL
 - Insomnia
 - Heroku
+- Unity
+- PHP MyAdmin
