@@ -2,30 +2,21 @@
 
 Hello! My name is Zachary.
 
-## A bit about me!
+## Bio
 
-I'm a web developer and graduate of Michigan State's Full Stack Web Development Cohort.
-
-I'm familiar with both front-end and back-end technologies but I have a deep interest in Data Structures and push myself to learn more everyday.
-
-Building things and fixing things has been a passion since my early teens (before then i didn't fix anything!).
-From building computers to fixing old gameboys and attempting to learn C# and Unity as a kid (Ouch!)
-I am also a seasoned Video/SFX editor with experience in the Adobe Creative Suite (primarily Premiere, After Effects, Illustrator and Photoshop)
-As well as some Blender work on physics based animation.
+I am a web & indie game developer. Currently working with ITS as a web developer. Most of my recreational coding time is spent on my indie game, Mics of Rage.
 
 ## Languages
 
 Javascript, Typescript, C#, SQL, PHP, HTML & CSS
 
-## Enviroments & Packages
+## Enviroments, Libraries & Packages
 
-- node.js
-- react.js
-- handlebars.js
-- express.js
+- node
+- react
+- express
 - bcrpyt
 - JQuery
-- moment.js
 - bootstrap
 - sequelize
 - MySQL
@@ -45,3 +36,4 @@ Javascript, Typescript, C#, SQL, PHP, HTML & CSS
 - Unity
 - PHP MyAdmin
 - Godot
+- Asperite
