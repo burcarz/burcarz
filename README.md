@@ -22,7 +22,7 @@ Currently my main solo project outside of work is an indie game titled Mics of R
 - MySQL
 - SQLServer
 
-# Applications, Engines, Services
+# Applications, Engines & Services
 - Unity
 - Insomnia
 - CPanel
