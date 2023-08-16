@@ -4,7 +4,7 @@ I am web developer doing full stack development for ITS.
 
 Currently my main solo project outside of work is an indie game titled Mics of Rage.
 
-#Languages
+# Languages
 - C#
 - JS/TS, HTML, CSS
 - Go
