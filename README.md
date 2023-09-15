@@ -30,6 +30,7 @@ Currently my main solo project outside of work is an indie game titled Mics of R
 - Unreal
 - CPanel
 - AWS
+- Azure
 
 # IDE
 - Visual Studio Code
