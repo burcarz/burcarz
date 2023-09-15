@@ -9,7 +9,7 @@ Currently my main solo project outside of work is an indie game titled Mics of R
 - JS/TS, HTML, CSS
 - Go
 - Python
-- PHP
+- C++
 - SQL
 
 # Libraries, Enviroments & Frameworks
