@@ -9,7 +9,6 @@ Currently my main solo project outside of work is an indie game titled Mics of R
 - JS/TS, HTML, CSS
 - Go
 - C++
-- SQL
 
 # Libraries, Enviroments & Frameworks
 - React
@@ -27,7 +26,6 @@ Currently my main solo project outside of work is an indie game titled Mics of R
 - CPanel
 - Godot
 - Unreal
-- CPanel
 - AWS
 - Azure
 
