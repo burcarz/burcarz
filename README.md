@@ -8,7 +8,6 @@ Currently my main solo project outside of work is an indie game titled Mics of R
 - C#
 - JS/TS, HTML, CSS
 - Go
-- Python
 - C++
 - SQL
 
